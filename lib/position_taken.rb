@@ -4,7 +4,7 @@ def position_taken?(board, position)
   # binding.pry
   if board[position] == " " || board[position] == "" || board[position] == nil 
     taken = false
-  else board[position] == "X" || board[position] == "O"
+  else
     taken = true
   end
 end
